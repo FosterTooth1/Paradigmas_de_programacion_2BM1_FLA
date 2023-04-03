@@ -5,7 +5,7 @@
 	Flores Lara Alberto y Saucillo González Jesse Obed
 	3BV2
 */
-
+//Cambios
 //funcion que genera un arreglo de n elementos enteros generados de manera aleatoria
 void generarArreglo(int n, int arreglo[]){
 
