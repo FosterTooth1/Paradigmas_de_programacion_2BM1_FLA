@@ -14,7 +14,6 @@ void generarArreglo(int n, int arreglo[]){
     }
 } 
 
-
 //Funcion que imprime cualquier arreglo de n elementos
 void imprimirArreglo(int n, int arreglo[]){
     for(int i = 0; i < n; i++){
@@ -54,8 +53,6 @@ int main(){
 
     clock_t inicio=clock();
 
-
-
     //Arreglo de n elementos enteros generados de manera aleatoria
     int tamarreglo;
         //Pedir el tamaño del arreglo
@@ -89,10 +86,5 @@ int main(){
     printf("Tiempo de ejecucion: %f segundos ", tiempo);
 
     return 0; 
-
-    
-
-
-
 
 }
