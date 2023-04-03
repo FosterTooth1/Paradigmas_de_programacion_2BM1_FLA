@@ -78,7 +78,6 @@ int main(){
 
     imprimirArreglo(tamarreglo, arreglo);
 
-
     clock_t fin=clock();
     double tiempo=(double)(fin-inicio)/CLOCKS_PER_SEC;
     printf("\n");
