@@ -5,7 +5,7 @@
 	Flores Lara Alberto y Saucillo González Jesse Obed
 	3BV2
 */
-//cambio
+
 //funcion que genera un arreglo de n elementos enteros generados de manera aleatoria
 void generarArreglo(int n, int arreglo[]){
 
@@ -13,6 +13,7 @@ void generarArreglo(int n, int arreglo[]){
         arreglo[i] = rand() % n;
     }
 } 
+
 
 //Funcion que imprime cualquier arreglo de n elementos
 void imprimirArreglo(int n, int arreglo[]){
@@ -53,6 +54,8 @@ int main(){
 
     clock_t inicio=clock();
 
+
+
     //Arreglo de n elementos enteros generados de manera aleatoria
     int tamarreglo;
         //Pedir el tamaño del arreglo
@@ -78,13 +81,18 @@ int main(){
 
     imprimirArreglo(tamarreglo, arreglo);
 
-    clock_t fin=clock();
 
+    clock_t fin=clock();
     double tiempo=(double)(fin-inicio)/CLOCKS_PER_SEC;
     printf("\n");
 
     printf("Tiempo de ejecucion: %f segundos ", tiempo);
 
     return 0; 
+
+    
+
+
+
 
 }
