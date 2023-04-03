@@ -13,7 +13,7 @@ void generarArreglo(int n, int arreglo[]){
         arreglo[i] = rand() % n;
     }
 } 
-
+//Cambio
 
 //Funcion que imprime cualquier arreglo de n elementos
 void imprimirArreglo(int n, int arreglo[]){
