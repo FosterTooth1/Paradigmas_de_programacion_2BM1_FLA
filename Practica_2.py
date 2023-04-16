@@ -28,15 +28,12 @@ dividir=lambda x: x/random.randint(1,10)
 print(dividir(20))
 
 #Punto 4
-
 #La función tomar un argumento n y devuelve una funcion lambda que multiplica el argumento x por n
 def func_compute(n): return lambda x : x * n
 #Se llama a la funcion func_compute y se le pasa como argumento el numero 2
 result = func_compute(2)
 #Se imprime el resultado de la funcion (siendo el doble del numero que se le pase como argumento)
 print("Double the number of 15 =", result(15))
-
-
 
 #Se crea una tupla con las asignaturas y sus notas
 subject_marks = [('English', 88), ('Science', 90), ('Maths', 97),
@@ -50,7 +47,6 @@ subject_marks.sort(key = lambda x: x[1])
 #Se imprime la tupla ordenada
 print("\nResult:")
 print(subject_marks)
-
 
 #Se crea una lista con los numeros del 1 al 10
 nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
