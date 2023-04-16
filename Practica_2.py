@@ -65,4 +65,3 @@ print(square_nums)
 print("\n every number of the said list:")
 cube_nums = list(map(lambda x: x ** 3, nums))
 print(cube_nums)
-
