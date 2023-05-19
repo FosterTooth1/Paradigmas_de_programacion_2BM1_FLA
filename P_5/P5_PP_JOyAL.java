@@ -26,6 +26,7 @@ public class P5_PP_JOyAL {
             // Verificar si ambos ferris están llenos para iniciar la simulación
             if(Celebrian.size() == Capacidad && Portos.size() == Capacidad){
                 System.out.println();
+                opc = 2; 
                 Simulación();
 
                 }else{
