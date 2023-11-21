@@ -23,16 +23,16 @@ public class P5_PP_JOyAL {
         opc = 2; // Valor inicial para entrar al bucle do-while
 
         do {
-            // Verificar si ambos ferris están llenos para iniciar la simulación
+            // Verificar si ambos ferris están llenos para iniciar la Simulacion
             if(Celebrian.size() == Capacidad && Portos.size() == Capacidad){
                 System.out.println();
                 opc = 2; 
-                Simulación();
+                Simulacion();
 
                 }else{
                     System.out.println("Bienvenido al Menu, Selecciona una opcion");
                     System.out.println("1. Ingresar un nuevo carro");
-                    System.out.println("2. Adelantar la simulación de los Ferris");
+                    System.out.println("2. Adelantar la Simulacion de los Ferris");
                     opc = scanner.nextInt();
                     scanner.nextLine();
                     bandera = 0;
@@ -80,7 +80,7 @@ public class P5_PP_JOyAL {
                         case 2:
                             System.out.println();
                             // Forzar Simulacion
-                            Simulación();
+                            Simulacion();
                             break;
                         
                         default:
@@ -91,8 +91,8 @@ public class P5_PP_JOyAL {
         }
     
     // Método para simular el viaje de los ferris
-    private static void Simulación() {
-        System.out.println("Simulación de viaje del ferri Portos:");
+    private static void Simulacion() {
+        System.out.println("Simulacion de viaje del ferri Portos:");
         while (!Portos.isEmpty()) {
             System.out.println("Sale el Carro con matrícula " + Portos.pop());
             imprimir();
@@ -100,7 +100,7 @@ public class P5_PP_JOyAL {
 
         System.out.println();
     
-        System.out.println("Simulación de viaje del ferri Celebrian:");
+        System.out.println("Simulacion de viaje del ferri Celebrian:");
         while (!Celebrian.isEmpty()) {
             System.out.println("Sale el Carro con matrícula " + Celebrian.poll());
             imprimir();

@@ -21,7 +21,6 @@ class Ferris:
             print(matricula)
         print()
 
-
 class Portos(Ferris):
     def __init__(self, capacidad_maxima):
         super().__init__(capacidad_maxima)
@@ -45,8 +44,8 @@ class Celebrian(Ferris):
         else:
             return None
 
-
 def main():
+    print("xddddd")
     portos = Portos(10)
     celebrian = Celebrian(10)
 
@@ -94,5 +93,5 @@ def main():
         celebrian.imprimir_contenido()
 
     print("Viaje completado.")
-
-
+    
+main()
